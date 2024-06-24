@@ -12,8 +12,7 @@ This repository contains the code and data used in the study of portfolio volati
    - [LSTM Model](#lstm-model)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
-6. [Usage](#usage)
-7. [References](#references)
+6. [References](#references)
 
 ## Introduction
 Volatility forecasting is crucial for risk management, derivative pricing, and financial decision-making. This project implements and evaluates several volatility forecasting models, including GARCH(1,1), GARCH-t, EGARCH, TGARCH, and an LSTM neural network. The performance of these models is compared using metrics such as Mean Absolute Error (MAE) and Mean Squared Error (MSE).
@@ -47,15 +46,6 @@ The models' performance is evaluated using out-of-sample predictions. The Diebol
 
 ## Conclusion
 The study concludes that while GARCH-family models are effective for volatility forecasting, LSTM neural networks provide better accuracy and handle non-linear dependencies more effectively. These findings have significant implications for financial modeling and risk management.
-
-## Usage
-To reproduce the results, follow these steps:
-1. Clone this repository: `git clone https://github.com/yourusername/yourrepository`
-2. Navigate to the project directory: `cd yourrepository`
-3. Install the required packages: `pip install -r requirements.txt`
-4. Run the data preprocessing script: `python preprocess_data.py`
-5. Train and evaluate the models: `python train_models.py`
-6. Generate the results and visualizations: `python generate_results.py`
 
 ## References
 - Bollerslev, T. (1986). Generalized Autoregressive Conditional Heteroskedasticity. *Journal of Econometrics*, 31(3), 307-327.
